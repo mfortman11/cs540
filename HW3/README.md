@@ -1,8 +1,10 @@
 Creating Probabilistic Reasoners that Play Nannon (90 points)
+
 This problem involves writing Java code that implements three probabilistic reasoners to play the
 two-person board game called Nannon (http://nannon.com), which is a simplified version of the
 well-known game Backgammon (http://en.wikipedia.org/wiki/Backgammon). Instructions for Nannon
 are available at http://nannon.com/rules.html.
+
 Here is how we will formulate the task. At each turn, whenever there is more than one legal
 move, your chooseMove method is given access to:
 1) The current board configuration.
@@ -10,6 +12,7 @@ move, your chooseMove method is given access to:
 determine the next board configuration from each move. (Explanations of which
 effects are computed for you appear in the chooseMove method of the provided
 RandomNannonPlayer and in the ManageMoveEffects.java file).
+
 Your chooseMove method needs to return one of the legal moves. It should do this by using
 Bayes’ Rule to estimate the odds each move will lead to a winning game, returning the one with
 the highest odds. That is, it should compute for each possible move:
@@ -26,6 +29,7 @@ go beyond the NB conditional-independence assumption (see notes). It is up to yo
 specific random variables used and, for the non-naive Bayesian Network, which conditional
 independence assumptions you wish to make. The random variables in your three solutions need
 not be the same.
+
 You need to place your three solutions in these files, where YourMoodleLoginName is your
 actual Moodle (i.e., your UWisc) login:
 FullJointProbTablePlayer_YourMoodleLoginName.java
