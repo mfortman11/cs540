@@ -15,23 +15,23 @@ The explanation below talks about the possible outputs being “lowToMid” and
 labels, for tune and test sets of any (non-negative) size, and for any (odd-numbered and
 positive) size of the forest (ie, the ‘101’ below).
 Here is what you need to do:
-a. Copy the 101 ‘copied with replacement’ replicates of the training set from
+  a. Copy the 101 ‘copied with replacement’ replicates of the training set from
 http://pages.cs.wisc.edu/~shavlik/cs540/HWs/HW2/wine-bagged-unzipped/
-b. There is also a *zip file (http://pages.cs.wisc.edu/~shavlik/cs540/HWs/HW2/winebagged.zip)
+  b. There is also a *zip file (http://pages.cs.wisc.edu/~shavlik/cs540/HWs/HW2/winebagged.zip)
 that contains all 101 files; it might be easier to copy this to your computer
 and then unzip. Be sure to note the repeated pattern in the file names, which makes
 reading 101 files much easier. Hint: use a FOR LOOP from 1 to 101.
-c. Copy the TUNE set from
+  c. Copy the TUNE set from
 http://pages.cs.wisc.edu/~shavlik/cs540/HWs/HW0/red-wine-quality-tune.data
-d. Copy the TEST set from
+  d. Copy the TEST set from
 http://pages.cs.wisc.edu/~shavlik/cs540/HWs/HW0/red-wine-quality-test.data
-e. Train ID3 on all 101 replicated trainsets (you’ll probably want to turn printing off!).
-f. Collect the predictions of the 101 trees on each of the 298 tune-set and 298 test-set
+  e. Train ID3 on all 101 replicated trainsets (you’ll probably want to turn printing off!).
+  f. Collect the predictions of the 101 trees on each of the 298 tune-set and 298 test-set
 examples. Store these in your code, e.g. in two 2D arrays where array cell i,j holds
 the predicted output of tree i on tune-set (test-set) example j. Store the predictions
 (i.e., lowToMid or midToHigh), rather than if the prediction was correct. This will
 make the next step easier.
-g. Compute and plot the accuracy of the following ‘combination rule’ for L in 1, 3, 5, 7,
+  g. Compute and plot the accuracy of the following ‘combination rule’ for L in 1, 3, 5, 7,
 …, 99, 101 (i.e., all odd-numbered values from 1 to 101) for both the tune set and the
 test set: 
 If at least L of the 101 learned trees predict lowToMid then output lowToMid
@@ -51,4 +51,4 @@ would get 75% test-set accuracy.)
 Notice that in Part 1e we created two ‘predictions’ arrays. Use them here, rather
 than, for each value of L, having the 101 decision trees process the tune and test sets
 anew.
-h. Turn in your plot and (ideally, typed) discussion in the file HW2_part1.pdf
+  h. Turn in your plot and (ideally, typed) discussion in the file HW2_part1.pdf
