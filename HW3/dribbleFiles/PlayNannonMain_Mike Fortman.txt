@@ -1,0 +1,44 @@
+% Running on host: MikeFortman-PC
+NannonGUI:  setBounds: width = 554, height = 374
+
+% This is the console of the Nannon GUI.
+% (Do a control-C here if the program appears to be hanging.)
+
+500,000 post burn-in games played so far.  Took 3 seconds.
+  Player X (JWS's Hand-Coded Player) won 250,016 games (50.00%) and
+  Player O (mfortman Full Joint Prob Table Player) won 249,983 games (50.00%).
+1,000,000 post burn-in games played so far.  Took 2 minutes and 49 seconds.
+  Player X (JWS's Hand-Coded Player) won 501,317 games (50.13%) and
+  Player O (mfortman Full Joint Prob Table Player) won 498,682 games (49.87%).
+
+Player X (JWS's Hand-Coded Player) won 501,318 games (50.13%) and Player O (mfortman Full Joint Prob Table Player) won 498,682 games (49.87%).
+It took 3 minutes and 37 seconds to play 1,001,000 games. The numberOfGamesInBurnInPhase = 1,000.
+    The mean number of turns per game:                      6.70  // These stats are for post burn-in games only.
+    The mean number of no-possible-moves per game for X:    0.42
+    The mean number of no-possible-moves per game for O:    0.40
+    The mean number of forced moves per game for X:         2.84
+    The mean number of forced moves per game for O:         2.85
+
+-------------------------------------------------
+
+ I (JWS's Hand-Coded Player) was born smart enough and don't try to learn.
+
+-------------------------------------------------
+
+-------------------------------------------------
+Best homeNum: 0
+Best safeNum: 3
+Best hasPrime: 0
+Best oppHomeNum: 0
+Best oppSafeNum: 0
+Best oppHasPrime: 0
+
+-------------------------------------------------
+Worst homeNum: 0
+Worst safeNum: 0
+Worst hasPrime: 0
+Worst oppHomeNum: 2
+Worst oppSafeNum: 0
+Worst oppHasPrime: 0
+
+-------------------------------------------------
